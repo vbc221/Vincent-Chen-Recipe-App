@@ -1,0 +1,26 @@
+{
+  "name": "Vincent-Chen-Recipe-App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbc221/Vincent-Chen-Recipe-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vbc221/Vincent-Chen-Recipe-App/issues"
+  },
+  "homepage": "https://github.com/vbc221/Vincent-Chen-Recipe-App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.5",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.7.3"
+  }
+}
