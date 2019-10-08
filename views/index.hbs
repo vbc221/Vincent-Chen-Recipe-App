@@ -1,9 +1,26 @@
-<h1>Share Your Favorite Receipes</h1>
+<header>
+  <div class='hContainer'>
+    <h1>My Recipe Book</h2>
+    <nav>
+      <ul>
+        <li><a href='/'>Home</a></li>
+        <li><a href='/new'>Create Recipe</a></li>
+        <li><a href='#'>My Page</a></li>
+        <li><a href='#'>Logout</a></li>
+        <li>Your name</li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<h2>Shared Recipes</h2>
 
-<ul>
-  {{#each recipes}}
-  <li><a href="/{{this.id}}">{{this.title}} by {{this.name}}</a></li>
-  {{/each}}
-</ul>
+<div class='sContainer'>
+  <ul class='shared'>
+    {{#each recipes}}
+    <li><a href="/{{this.id}}">{{this.title}} by {{this.name}}</a></li>
+    {{/each}}
+  </ul>
+</div>
 
-<button id='create'><a href="/new">Create Recipe</a></button>
+
+

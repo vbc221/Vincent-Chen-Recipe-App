@@ -1,34 +1,66 @@
 *{
   list-style: none;
-  font-family: 'Mansalva',
-  cursive;
+  font-family: 'Nunito',
+  sans-serif;
 }
 
+/* HEADER CSS */
+
 body{
-  background-image: url('https://cdn.pixabay.com/photo/2017/06/01/18/46/cook-2364221_1280.jpg');
+  background-image: url('');
   background-size: cover;
   background-repeat: no-repeat;
   height:100vh;
+  background:lightskyblue;
+}
+
+header{
+  box-sizing: border-box;
+  width:100%;
+}
+
+
+header div{
+  display:flex;
+  justify-content: space-between;
+  border-bottom: 1px black;
+}
+
+header div ul li{
+  display:inline-block;
+  margin: 0 5px;
+}
+
+header div ul li a{
+  text-decoration: none;
+  color:black;
+}
+header div ul li a:hover {
+  color: white;
 }
 
 h1{
-  text-align: center;
-  font-size:40px;
-  color:white;
+  font-size:20px;
 }
 
-ul li{
-  display:flex;
-  justify-content: center;
-  margin-right:40px;
+
+
+.shared{
+  margin: 10px 0;
+}
+
+
+.shared li{
   font-size:20px;
   text-transform: uppercase;
+  border:1px solid black;
+  width:20%;
 }
 
-li a{
+.shared li a{
   color:white;
   text-decoration: none;
-}
+} 
 
 #create{
   border: 1px solid black;
@@ -55,11 +87,7 @@ li a{
   margin:0 auto;
   resize: none;
 }
-textarea {
-  resize: none;
-  width:75%;
-  margin:0 auto;
-}
+
 
 .extraSpace{
   height:70px;
