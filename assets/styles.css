@@ -7,16 +7,19 @@
 /* HEADER CSS */
 
 body{
-  background-image: url('');
   background-size: cover;
   background-repeat: no-repeat;
   height:100vh;
-  background:lightskyblue;
+  background-image: url('/assets/images/beans-chopping-board-food-616358.jpg');
 }
 
 header{
   box-sizing: border-box;
   width:100%;
+}
+
+.hContainer{
+  border-bottom: 1px solid black;
 }
 
 
@@ -29,6 +32,7 @@ header div{
 header div ul li{
   display:inline-block;
   margin: 0 5px;
+  font-weight: bold;
 }
 
 header div ul li a{
@@ -43,6 +47,11 @@ h1{
   font-size:20px;
 }
 
+h1 a{
+  text-decoration: none;
+  color:black;
+}
+
 
 
 .shared{
@@ -54,13 +63,34 @@ h1{
   font-size:20px;
   text-transform: uppercase;
   border:1px solid black;
-  width:20%;
+  width:16%;
+  text-align: center;
+  margin:10px 5px;
+  display:inline-block;
+  height: 140px;
+  border-radius:3%;
+  background:rgb(255,255,255,.3)
 }
 
 .shared li a{
-  color:white;
+  color:black;
   text-decoration: none;
+  text-align:center;
 } 
+
+.showContainer{
+  background:rgb(255,255,255,.6);
+  margin:10px 260px;
+  padding:10px;
+  border-radius:5%;
+}
+
+.recipeContainer{
+  display:flex;
+  justify-content: flex-end;
+}
+
+
 
 #create{
   border: 1px solid black;
@@ -83,10 +113,29 @@ h1{
   flex-direction: column;
 }
 .new{
-  width:75%;
+  width:74%;
   margin:0 auto;
   resize: none;
 }
+
+.ingredientList input{
+  width:85%;
+}
+
+.stepList input{
+  width:85%
+}
+
+
+.ingredientList{
+  margin-left:55px;
+}
+
+.stepList{
+  margin-left:55px;
+}
+
+
 
 
 .extraSpace{
@@ -95,7 +144,6 @@ h1{
 
 .label{
   margin: 0 auto;
-  color:white;
 }
 #newStuff{
   margin-top:20px;
@@ -107,8 +155,29 @@ h1{
 
 h2{
   text-align: center;
-  color:white;
-  font-size:20px;
+  color:black;
+  font-size:18px;
+}
+
+
+
+
+.showOther{
+  text-align: center;
+  color:black;
+  font-size:15px;
+  margin-right:40px;
+}
+
+.different{
+  text-align: center;
+  color:black;
+  font-size:30px;
+  font-style: bold;
+}
+
+h3{
+  text-align: center;
 }
 
 #delete{
@@ -120,10 +189,7 @@ h2{
   height:23px;
 }
 
-.container{
-  display:flex;
-  justify-content: center;
-}
+
 
 .show button{
   width:70px;
@@ -148,4 +214,33 @@ h2{
   margin: 20px auto;
   font-size: 20px;
   border-radius: 5%;
+}
+
+.buttonF{
+  font-size:10px;
+  width:80px;
+  text-align: center;
+  display: inline-block;
+  margin:0 10px;
+}
+
+.buttonContainer{
+  display:flex;
+  justify-content: center;
+  margin:10px;
+}
+
+.showContainerButtons{
+  display:flex;
+  justify-content: center;
+}
+
+.showContainerButtons button{
+  font-size:14px;
+  width:65px;
+}
+
+.showContainerButtons button a{
+  text-decoration: none;
+  color:black;
 }

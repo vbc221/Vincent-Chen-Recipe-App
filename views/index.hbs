@@ -1,25 +1,24 @@
 <header>
   <div class='hContainer'>
-    <h1>My Recipe Book</h2>
+    <h1><a href='/'>My Recipe Book</a></h1>
     <nav>
       <ul>
         <li><a href='/'>Home</a></li>
         <li><a href='/new'>Create Recipe</a></li>
-        <li><a href='#'>My Page</a></li>
-        <li><a href='#'>Logout</a></li>
-        <li>Your name</li>
       </ul>
     </nav>
   </div>
 </header>
-<h2>Shared Recipes</h2>
+<h2 class= 'different'>Shared Recipes</h2>
 
 <div class='sContainer'>
   <ul class='shared'>
-    {{#each recipes}}
-    <li><a href="/{{this.id}}">{{this.title}} by {{this.name}}</a></li>
-    {{/each}}
-  </ul>
+    <div>
+      {{#each recipes}}
+      <li><a href="/{{this.id}}">{{this.title}}</br> </br>by {{this.name}}</a></li>
+      {{/each}}
+    </div>
+  </ul> 
 </div>
 
 

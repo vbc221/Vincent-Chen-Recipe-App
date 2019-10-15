@@ -20,7 +20,7 @@ router.post("/", (req, res) => {
 router.put("/:id", (req, res) => {
   Recipe.findOneAndUpdate({
     _id: req.params.id
-  }, req.body).then(recipe => {
+  }, req.body,{new:true}).then(recipe => {
     res.redirect("/");
   });
 });

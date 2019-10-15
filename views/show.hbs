@@ -1,27 +1,39 @@
 <header>
   <div class='hContainer'>
-    <h1>My Recipe Book</h2>
+    <h1><a href='/'>My Recipe Book</a></h1>
       <nav>
         <ul>
           <li><a href='/'>Home</a></li>
           <li><a href='/new'>Create Recipe</a></li>
-          <li><a href='#'>My Page</a></li>
-          <li><a href='#'>Logout</a></li>
-          <li>Your name</li>
         </ul>
       </nav>
   </div>
 </header>
-
-<h2>Title: {{title}}</h2>
-<h2>Name: {{name}}</h2>
-<h2>Description:</br> {{description}}</h2>
-<h2>Instructions:</br> {{instructions}}</h2>
-<h2>Ingredients:</br> {{ingredients}}</h2>
-
-<form class='show' action="/{{id}}?_method=delete" method="post">
-  <div class='container'>
-    <input id='delete' type="submit" value="DELETE">
-    <button><a href="/edit/{{id}}">EDIT</a></button>
+<div class='showContainer'>
+  <h2>Title: {{title}}</h2>
+  <h2>Created by: {{name}}</h2>
+  <h2>Description:</br> {{description}}</h2>
+  <h2>Ingredients:</h2>
+  <div class='showOther'>
+    <ul>
+      {{#each ingredients}}
+      <li>{{this}}</li>
+      {{/each}}
+    </ul>
   </div>
-</form>
+  <h2>Instructions:</h2>
+  <div class='showOther'>
+    <ol>
+      {{#each steps}}
+      <li>{{this}}</li>
+      {{/each}}
+    </ol>
+  </div>
+</div>
+
+<div class='showContainerButtons'>
+  <form class='show' action="/{{id}}?_method=delete" method="post">
+      <input id='delete' type="submit" value="DELETE">
+  </form>
+  <button><a href="/edit/{{id}}">EDIT</a></button>
+</div>
