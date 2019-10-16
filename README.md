@@ -8,7 +8,7 @@ Created a quiz app that tests your knowledge on capitals of different countries.
 ![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/IMG_4523.jpg)
 ![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/IMG_4524.jpg)
 ## Brief Example:
-![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/Screen%20Shot%202019-10-15%20at%208.50.32%20PM.png)
+![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/Screen%20Shot%202019-10-15%20at%208.54.39%20PM.png)
 ## List of Features / User Stories
 For the project I planned to be able to:
 * Create recipes
