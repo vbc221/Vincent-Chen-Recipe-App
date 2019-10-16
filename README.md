@@ -5,8 +5,8 @@ Created a quiz app that tests your knowledge on capitals of different countries.
 ## Wireframe:
 ![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/IMG_4525%20(1).jpg)
 ![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/IMG_4522.jpg)
-![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/IMG_4522.jpg)
-![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/IMG_4525%20(1).jpg)
+![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/IMG_4523.jpg)
+![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/IMG_4524.jpg)
 ## Brief Example:
 ![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/Screen%20Shot%202019-10-15%20at%208.50.32%20PM.png)
 ## List of Features / User Stories
