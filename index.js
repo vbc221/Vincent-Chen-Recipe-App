@@ -3,6 +3,8 @@ const hbs=require('hbs')
 const parser=require('body-parser');
 const methodOverride=require('method-override');
 
+const RecipeController=require('./controllers/recipes')
+
 const app=express()
 
 app.set("view engine", "hbs");
@@ -13,9 +15,9 @@ app.use(parser.urlencoded({
 }));
 app.use(methodOverride("_method"));
 
-const RecipeController=require('./controllers/recipes')
-app.use('/',RecipeController);
 
-app.listen(3000,()=>{
-  console.log('running on port 3000');
+app.set("port", process.env.PORT || 3000);
+
+app.listen(app.get("port"), () => {
+  console.log(`✅ PORT: ${app.get("port")} 🌟`);
 });

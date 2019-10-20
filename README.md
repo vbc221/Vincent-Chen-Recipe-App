@@ -1,6 +1,6 @@
 # Vincent-Chen-Recipe-App
 ## Description:
-Created a quiz app that tests your knowledge on capitals of different countries. Quiz contains 10 questions and tracks your correct and wrong answers throughout the quiz. 
+Created a recipe app where people can post their own siyes
 
 ## Wireframe:
 ![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/IMG_4525%20(1).jpg)

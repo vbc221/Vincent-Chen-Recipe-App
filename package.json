@@ -7,6 +7,9 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "12.11.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vbc221/Vincent-Chen-Recipe-App.git"
