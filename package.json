@@ -1,7 +1,7 @@
 {
   "name": "vincent-chen-recipe-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "recipe app",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
