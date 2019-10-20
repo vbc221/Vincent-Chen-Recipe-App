@@ -14,7 +14,7 @@ app.use(parser.urlencoded({
   extended: true
 }));
 app.use(methodOverride("_method"));
-
+app.use('/',RecipeController);
 
 app.set("port", process.env.PORT || 3000);
 
