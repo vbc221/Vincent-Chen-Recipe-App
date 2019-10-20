@@ -12,7 +12,7 @@ let mongoURI = "";
 if (process.env.NODE_ENV === "production") {
   mongoURI = process.env.DB_URL;
 } else {
-  mongoURI = "mongodb://localhost/Vincent-Chen-Recipe-App";
+  mongoURI = "mongodb://localhost/recipe";
 }
 // connect to the database, with the imported mongoose instance
 mongoose
