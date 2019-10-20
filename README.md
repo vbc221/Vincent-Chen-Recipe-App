@@ -8,7 +8,7 @@ Created a quiz app that tests your knowledge on capitals of different countries.
 ![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/IMG_4523.jpg)
 ![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/IMG_4524.jpg)
 ## Brief Example:
-![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/Screen%20Shot%202019-10-15%20at%208.50.32%20PM.png)
+![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/Screen%20Shot%202019-10-15%20at%208.54.39%20PM.png)
 ## List of Features / User Stories
 For the project I planned to be able to:
 * Create recipes
@@ -27,7 +27,7 @@ The technologies I used to create this are Express, MongoDB, and Handlebars.
 Clone it down
 Next npm install to make sure you have everything on your local file.
 
-## App Url: https://vbc221.github.io/Triva-app-/
+
 
 ## Issues throughout the process:
 I wrote everything else I needed to create in my javascript but ended up just writing one big function. I had to restart because I was getting lost having everything in one block of code. Learned about the importance of breaking things apart into simpler pieces and console logging things to see what was being accessed. 
