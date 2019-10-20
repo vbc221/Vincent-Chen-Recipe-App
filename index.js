@@ -6,6 +6,7 @@ const methodOverride=require('method-override');
 const app=express()
 const RecipeController=require('./controllers/recipes')
 
+socket = io.listen(process.env.PORT);
 app.set("view engine", "hbs");
 app.use('/assets', express.static('assets'));
 app.use('/',RecipeController);
