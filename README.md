@@ -1,6 +1,6 @@
 # Vincent-Chen-Recipe-App
 ## Description:
-Created a recipe app where people can post their own siyes
+Created a recipe app where people can post their own recipes and see other recipes
 
 ## Wireframe:
 ![](https://github.com/vbc221/Vincent-Chen-Recipe-App/blob/master/assets/images/IMG_4525%20(1).jpg)
