@@ -1,7 +1,25 @@
-const mongoose=require('mongoose')
+// we're importing mongoose from node_modules
+const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://localhost/recipe')
+// using native ES6 Promises, in place of mongoose's deprecated mpromise library
+// `Promise` will provides us with a couple methods: .then() for success, 
+// and .catch() for errors
+mongoose.Promise = Promise
 
-mongoose.Promise=Promise
+// set the uri for connecting to our local mongodb
+// const mongoURI = 'mongodb://localhost/book-e'
+let mongoURI = "";
+if (process.env.NODE_ENV === "production") {
+  mongoURI = process.env.DB_URL;
+} else {
+  mongoURI = "mongodb://localhost/recipe";
+}
+// connect to the database, with the imported mongoose instance
+mongoose
+  .connect(mongoURI, {useNewUrlParser: true})
+  .then(instance => console.log(`Connected to db: ${instance.connections[0].name}`))
+  .catch(error => console.log('Connection failed!', error))
 
-module.exports=mongoose 
+// now, our mongoose instance has a configured connection to our local db, in addition
+// to its model configuration
+module.exports = mongoose
